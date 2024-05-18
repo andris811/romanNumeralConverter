@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFF9D0;
+  font-family: "Futura", Times, serif;
+  font-size: 20px;
+  color: #5AB2FF;
+  padding: 0 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 25px 0;
+}
+
+.input-container {
+  flex-direction: column;
+  display: flex;
+  margin: 5px 0;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#convert-btn {
+  background-color: #CAF4FF;
+  cursor: pointer;
+  border: solid #A0DEFF;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 150ms;
+}
+
+#convert-btn:hover {
+  padding: 13px;
+  transition: 150ms;
+}
+
+.number {
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: #5AB2FF;
+  border: solid #A0DEFF;
+  border-radius: 10px;
+}
+
+#output {
+  margin: 10px 0;
+  min-width: 200px;
+  width: fit-content;
+  min-height: 80px;
+  padding: 15px;
+  border: 5px solid #A0DEFF;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
