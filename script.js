@@ -24,6 +24,7 @@ const convertToRoman = input => {
 
   roman.forEach(function (arr) {
     while (input >= arr[1]) {
+      console.log(arr )
       romanResult.push(arr[0]);
       input -= arr[1];
     }
